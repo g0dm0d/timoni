@@ -1,0 +1,11 @@
+[[Task]]
+Name = "main"
+Command = "java"
+Args = "-Xms1G -Xmx5G --add-modules=jdk.incubator.vector -jar server.jar --nogui"
+Dir = "/server/main/"
+
+[[Task]]
+Name = "minigame"
+Command = "java"
+Args = "-Xms1G -Xmx5G --add-modules=jdk.incubator.vector -jar server.jar --nogui"
+Dir = "/server/minigame/"
