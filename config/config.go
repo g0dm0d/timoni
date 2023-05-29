@@ -8,11 +8,6 @@ import (
 
 type Config struct {
 	Task    []Task
-	Discord Discord
-}
-
-type Discord struct {
-	Webhook string
 }
 
 type Task struct {
